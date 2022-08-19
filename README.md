@@ -1,1 +1,1 @@
-# This Health care management App
+# Hospital management App
