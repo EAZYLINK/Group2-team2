@@ -1,0 +1,95 @@
+
+
+.section1part1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourMissionHeadTag {
+    padding-bottom: 5px;
+    margin-left: 25px;
+    width: 50%;
+    
+}
+
+.ourVisionHeadTag {
+    padding-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 50%;
+} 
+
+
+
+.ourMission-ourVisionHolder {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ourMission {
+    background-color: rgb(9, 54, 144);
+    color: #fff;
+    padding: 20px 10px;
+    padding-left: 95px;
+    margin-left: 25px;
+    width: 50%;
+    
+}
+
+.ourVision {
+    background-color: rgb(9, 54, 144);
+    color: #fff;
+    padding: 20px 10px;
+    padding-left: 95px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 50%;
+}
+
+.ourManagementHolder {
+    margin-top: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+
+
+
+.centerHeadings {
+    margin-top: 75px;
+    text-align: center;
+    
+}
+
+.section2CenterParagraph {
+    /* background-color: orangered; */
+    text-align: center;
+    margin: 10px 100px;
+}
+
+
+.section2part2 {
+    background-color: rgb(42, 115, 240);
+    padding: 20px 105px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+/* .section4 {
+
+} */
+
+.getInTouch {
+    background-color: rgb(42, 115, 240);
+    margin-top: 45px;
+    padding: 35px 75px 35px 75px;
+}
