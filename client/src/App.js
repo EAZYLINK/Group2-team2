@@ -1,4 +1,7 @@
 import { Route, Routes} from "react-router-dom"
+
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 // import AboutUs from "./components/AboutUs";
 // import ContactUs from "./components/ContactUs";
 // import Doctor from "./components/Doctor";
@@ -6,8 +9,6 @@ import { Route, Routes} from "react-router-dom"
 // import Home from "./components/Home";
 // import Services from "./components/Services";
 // import SharedLayout from "./components/SharedLayout";
-import Login from "./components/Login";
-import Signup from "./components/Signup";
 
 function App() {
   return (
