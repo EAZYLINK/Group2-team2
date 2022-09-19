@@ -4,6 +4,7 @@ import AboutCard from "./AboutCard"
 import AboutOne from "./Assets/aboutOne.png"
 import AboutTwo from "./Assets/aboutTwo.png"
 import { AboutContainer, AboutUsPage } from "./AboutUs.styled"
+import managementData from "./AboutData"
 
 const AboutUs = () => {
   return (
@@ -21,6 +22,22 @@ const AboutUs = () => {
         Image = {AboutTwo}
       />
       </AboutContainer>
+      <div className="ourManagement">
+        <h1 className="managementHeading">Our Management</h1>
+        <div className="ourManagementCardContain">
+          {managementData.map(
+            (props) => (
+              <div className="ourManagementCard">
+                <img className="profileImg" src={props.avatar}/>
+                <div className="managementDescription">
+                  <h3>{props.name}</h3>
+                  <p>{props.jobRole}</p>
+                </div>
+              </div>
+            )
+          )}
+        </div>
+      </div>
     </AboutUsPage>
   )
 }
